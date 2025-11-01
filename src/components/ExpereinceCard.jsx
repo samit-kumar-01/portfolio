@@ -8,7 +8,7 @@ const ExperienceCard = () => {
 
   return (
     <div className="w-[40vw]  max-w-md mx-auto max-md:w-[70vw] bg-[#111827] p-6 rounded-2xl border border-purple-800 shadow-[0_0_20px_#9333ea55]  hover:scale-[1.1] transition delay-150 duration-300 ease-in-out text-white">
-      {/* Top section with logo and title */}
+  
       <div className="flex items-center gap-4 mb-4">
         <img
           src="https://lh3.googleusercontent.com/p/AF1QipNSXOHBU72r2TcguBLEKQlgT_pMo27iMxzDfwwi=s1360-w1360-h1020-rw"
@@ -22,12 +22,12 @@ const ExperienceCard = () => {
         </div>
       </div>
 
-      {/* Description */}
+    
       <p className="text-sm text-gray-300 mb-4">
        
       </p>
 
-      {/* Skills */}
+     
       <p className="text-sm font-semibold text-gray-200 mb-2">Skills:</p>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill, index) => (
