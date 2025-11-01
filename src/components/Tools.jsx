@@ -24,7 +24,7 @@ const Tools = () => {
     <div className="w-[90vw] max-w-md mx-auto bg-[#111827] p-6 rounded-2xl border border-purple-800 shadow-[0_0_20px_#9333ea55]">
       <h2 className="text-center text-gray-300 text-2xl font-semibold mb-6">Tools</h2>
 
-      {/* Responsive Grid Layout */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {tools.map((tool, index) => (
           <div
